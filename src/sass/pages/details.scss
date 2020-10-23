@@ -1,0 +1,87 @@
+div.details {
+  padding: 50px 20px;
+  div.left {
+  }
+  div.right {
+    div.story {
+      padding-top: 40px;
+      h1.story-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      span.story-date {
+        display: block;
+        padding: 20px 0;
+      }
+
+      p.story-body {
+        line-height: 30px;
+      }
+
+      div.hashtags {
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-between;
+
+        div.tags {
+          span {
+            font-size: 14px;
+            padding-right: 5px;
+            color: red;
+          }
+        }
+
+        div.share {
+          i {
+            padding-right: 10px;
+            font-size: 17px;
+          }
+        }
+      }
+    }
+    div.comments {
+      margin-top: 30px;
+      div.comments-container {
+        padding-top: 20px;
+
+        div.comment {
+          display: flex;
+          min-height: 100px;
+          div.user-image {
+            height: 50px;
+            width: 50px;
+            background: #efefef;
+          }
+          div.comment-details {
+            padding: 0 10px;
+            flex: 1;
+            div.head {
+              display: flex;
+              justify-content: space-between;
+
+              span {
+                font-size: 12px;
+              }
+            }
+
+            div.body {
+              padding-top: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 791px) {
+  div.details {
+    display: flex;
+
+    div.left,
+    div.right {
+      flex: 0 0 50%;
+    }
+  }
+}

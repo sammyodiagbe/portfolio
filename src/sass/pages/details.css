@@ -1,0 +1,102 @@
+div.details {
+  padding: 50px 20px;
+}
+
+div.details div.right div.story {
+  padding-top: 40px;
+}
+
+div.details div.right div.story h1.story-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+div.details div.right div.story span.story-date {
+  display: block;
+  padding: 20px 0;
+}
+
+div.details div.right div.story p.story-body {
+  line-height: 30px;
+}
+
+div.details div.right div.story div.hashtags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.details div.right div.story div.hashtags div.tags span {
+  font-size: 14px;
+  padding-right: 5px;
+  color: red;
+}
+
+div.details div.right div.story div.hashtags div.share i {
+  padding-right: 10px;
+  font-size: 17px;
+}
+
+div.details div.right div.comments {
+  margin-top: 30px;
+}
+
+div.details div.right div.comments div.comments-container {
+  padding-top: 20px;
+}
+
+div.details div.right div.comments div.comments-container div.comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100px;
+}
+
+div.details div.right div.comments div.comments-container div.comment div.user-image {
+  height: 50px;
+  width: 50px;
+  background: #efefef;
+}
+
+div.details div.right div.comments div.comments-container div.comment div.comment-details {
+  padding: 0 10px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+div.details div.right div.comments div.comments-container div.comment div.comment-details div.head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.details div.right div.comments div.comments-container div.comment div.comment-details div.head span {
+  font-size: 12px;
+}
+
+div.details div.right div.comments div.comments-container div.comment div.comment-details div.body {
+  padding-top: 10px;
+}
+
+@media screen and (min-width: 791px) {
+  div.details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  div.details div.left,
+  div.details div.right {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+}
+/*# sourceMappingURL=details.css.map */

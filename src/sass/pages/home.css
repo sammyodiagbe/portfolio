@@ -1,0 +1,520 @@
+div.home div.intro-story {
+  padding: 30px 30px;
+  text-align: center;
+}
+
+div.home div.intro-story img.author {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+div.home div.intro-story h1.stay-on-story {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+div.home div.intro-story h1.stay-on-story b.stand-out {
+  color: #333;
+}
+
+div.home div.intro-story p {
+  font-size: 15px;
+  line-height: 30px;
+}
+
+div.home div.intro-story div.socials {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.home div.intro-story div.socials i {
+  font-size: 25px;
+}
+
+div.home div.intro-story div.socials i:nth-child(even) {
+  margin: 0 30px;
+}
+
+div.home div.featured-stories {
+  padding: 30px 25px;
+}
+
+div.home div.featured-stories div.title-container {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+div.home div.featured-stories div.title-container h2.title {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+div.home div.featured-stories div.title-container::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  width: 68px;
+  height: 1px;
+  background: black;
+}
+
+div.home div.featured-stories div.stories div.story {
+  position: relative;
+  height: 380px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+div.home div.featured-stories div.stories div.story div.card {
+  background: #fff;
+  position: absolute;
+  width: 90%;
+  bottom: 20px;
+  padding: 20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+div.home div.featured-stories div.stories div.story div.card div.tags span.tag {
+  font-size: 14px;
+  padding-right: 15px;
+  color: #ec6077;
+}
+
+div.home div.featured-stories div.stories div.story div.card h1.story-title {
+  font-size: 16px;
+  padding: 15px 0;
+  font-weight: 700;
+}
+
+div.home div.latest-stories {
+  padding: 30px 25px;
+}
+
+div.home div.latest-stories div.title-container {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+div.home div.latest-stories div.title-container h2.title {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+div.home div.latest-stories div.title-container::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  width: 68px;
+  height: 1px;
+  background: black;
+}
+
+div.home div.latest-stories div.stories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.home div.latest-stories div.stories div.story-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.home div.latest-stories div.stories div.story-container div.story {
+  margin-bottom: 30px;
+}
+
+div.home div.latest-stories div.stories div.story-container div.story div.card {
+  background: #fff;
+}
+
+div.home div.latest-stories div.stories div.story-container div.story div.card div.time {
+  padding: 10px 0 20px 0;
+}
+
+div.home div.latest-stories div.stories div.story-container div.story div.card div.time p {
+  font-size: 14px;
+}
+
+div.home div.latest-stories div.stories div.story-container div.story div.card h1.story-title {
+  font-size: 16px;
+  padding: 15px 0;
+  font-weight: 700;
+}
+
+div.home div.latest-stories div.stories div.story-container div.story div.card a {
+  color: #666;
+}
+
+div.home div.contact-us {
+  background-image: url(../../assets/bak.webp);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  height: 400px;
+  padding: 20px;
+}
+
+div.home div.contact-us div.contact-container {
+  background: #fff;
+  height: 100%;
+  text-align: center;
+  padding: 30px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 5px;
+}
+
+div.home div.contact-us div.contact-container div.left h1.title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+div.home div.contact-us div.contact-container div.right form div input[type="email"] {
+  padding: 10px 10px;
+  border-bottom: 1px solid black;
+  font-size: 0.9em;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+div.home div.contact-us div.contact-container div.right form div button {
+  padding: 15px;
+  width: 100%;
+  background: black;
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: bolder;
+}
+
+div.home footer {
+  padding: 30px 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 791px) {
+  div.intro-story {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 50px 3vw;
+  }
+  div.intro-story div.left {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+  div.intro-story div.left img.author {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  div.intro-story div.right {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    text-align: left;
+    padding-right: 10vw;
+  }
+  div.intro-story div.right h1.stay-on-story {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  div.intro-story div.right h1.stay-on-story b.stand-out {
+    color: #333;
+  }
+  div.intro-story div.right p {
+    font-size: 15px;
+    line-height: 30px;
+  }
+  div.intro-story div.right div.socials {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.intro-story div.right div.socials i {
+    font-size: 35px;
+  }
+  div.intro-story div.right div.socials i:nth-child(even) {
+    margin: 0 30px;
+  }
+  div.featured-stories {
+    padding: 30px 25px;
+  }
+  div.featured-stories div.title-container {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  div.featured-stories div.title-container h2.title {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  div.featured-stories div.title-container::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    width: 68px;
+    height: 1px;
+    background: black;
+  }
+  div.featured-stories div.stories {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  div.featured-stories div.stories div.story {
+    position: relative;
+    height: 380px;
+    padding: 10px;
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+  div.featured-stories div.stories div.story div.card {
+    background: #fff;
+    position: absolute;
+    width: 90%;
+    bottom: 20px;
+    padding: 20px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  div.featured-stories div.stories div.story div.card div.tags span.tag {
+    font-size: 14px;
+    padding-right: 15px;
+    color: #ec6077;
+  }
+  div.featured-stories div.stories div.story div.card h1.story-title {
+    font-size: 16px;
+    padding: 15px 0;
+    font-weight: 700;
+  }
+  div.latest-stories {
+    padding: 30px 25px;
+  }
+  div.latest-stories div.title-container {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  div.latest-stories div.title-container h2.title {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  div.latest-stories div.title-container::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    width: 68px;
+    height: 1px;
+    background: black;
+  }
+  div.latest-stories div.stories {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+  div.latest-stories div.stories div.story-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 15px;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  div.latest-stories div.stories div.story-container div.story {
+    margin-bottom: 30px;
+    padding: 10px;
+  }
+  div.latest-stories div.stories div.story-container div.story div.card {
+    background: #fff;
+  }
+  div.latest-stories div.stories div.story-container div.story div.card div.time {
+    padding: 10px 0 20px 0;
+  }
+  div.latest-stories div.stories div.story-container div.story div.card div.time p {
+    font-size: 14px;
+  }
+  div.latest-stories div.stories div.story-container div.story div.card h1.story-title {
+    font-size: 16px;
+    padding: 15px 0;
+    font-weight: 700;
+  }
+  div.latest-stories div.stories div.story-container div.story div.card a {
+    color: #666;
+  }
+  div.contact-us div.contact-container {
+    background: #fff;
+    height: 100%;
+    width: 80% !important;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 10vw !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 5px;
+  }
+  div.contact-us div.contact-container div.left {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    padding-right: 20px;
+  }
+  div.contact-us div.contact-container div.left h1.title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  div.contact-us div.contact-container div.right {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+  div.contact-us div.contact-container div.right form div input[type="email"] {
+    padding: 10px 10px;
+    border-bottom: 1px solid black;
+    font-size: 0.9em;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  div.contact-us div.contact-container div.right form div button {
+    padding: 15px;
+    width: 100%;
+    background: black;
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: bolder;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 790px) {
+  div.featured-stories div.stories {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+  div.featured-stories div.stories div.story {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 33% !important;
+            flex: 0 0 33% !important;
+    padding: 10px;
+  }
+  div.latest-stories {
+    padding: 30px 25px;
+  }
+  div.latest-stories div.title-container {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  div.latest-stories div.title-container h2.title {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  div.latest-stories div.title-container::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    width: 68px;
+    height: 1px;
+    background: black;
+  }
+  div.latest-stories div.stories {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  div.latest-stories div.stories div.story-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+  div.latest-stories div.stories div.story-container div.story {
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  div.latest-stories div.stories div.story-container div.story div.card {
+    background: #fff;
+  }
+  div.latest-stories div.stories div.story-container div.story div.card div.time {
+    padding: 10px 0 20px 0;
+  }
+  div.latest-stories div.stories div.story-container div.story div.card div.time p {
+    font-size: 14px;
+  }
+  div.latest-stories div.stories div.story-container div.story div.card h1.story-title {
+    font-size: 16px;
+    padding: 15px 0;
+    font-weight: 700;
+  }
+  div.latest-stories div.stories div.story-container div.story div.card a {
+    color: #666;
+  }
+}
+/*# sourceMappingURL=home.css.map */

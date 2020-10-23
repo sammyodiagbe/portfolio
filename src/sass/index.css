@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  font-family: "Fira Sans", sans-serif;
+  color: #292929;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Fira Sans", sans-serif;
+  color: #292929;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  list-style-type: none;
+}
+
+p {
+  font-size: 0.9em;
+}
+
+nav.navigation-bar {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+nav.navigation-bar div.side-navigation {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 30000;
+  -webkit-transform: translateX(-100vw);
+          transform: translateX(-100vw);
+}
+
+nav.navigation-bar div.side-navigation.open-nav {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+nav.navigation-bar div.side-navigation div.nav {
+  background: #fff;
+  height: 100vh;
+  width: 80vw;
+}
+
+nav.navigation-bar div.side-navigation div.nav div.nav-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+nav.navigation-bar div.side-navigation div.nav div.nav-head h1 {
+  font-size: 1.2em;
+}
+
+nav.navigation-bar div.side-navigation div.nav div.nav-head button {
+  background: transparent;
+  font-size: 2em;
+}
+
+nav.navigation-bar div.side-navigation div.nav ul li a {
+  padding: 20px !important;
+  display: inline-block;
+}
+
+nav.navigation-bar div.navigation-menu ul.nav-navigation {
+  display: none;
+}
+
+nav.navigation-bar div.navigation-menu ul.nav-navigation li a {
+  color: #333;
+}
+
+nav.navigation-bar div.burger-nav {
+  width: 30px;
+  height: 25px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+nav.navigation-bar div.burger-nav div {
+  height: 2px;
+  background: #333;
+  width: 100%;
+  border-radius: 20px;
+}
+
+nav.navigation-bar div.burger-nav div:last-child {
+  width: 70%;
+}
+
+nav.navigation-bar i.search-icon {
+  font-weight: normal !important;
+  font-size: 1em;
+}
+
+nav.navigation-bar a.brand-name {
+  font-weight: bolder;
+  font-size: 1.3em;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+nav.navigation-bar a.brand-name span {
+  color: #ec6077;
+}
+
+@media screen and (min-width: 800px) {
+  div.burger-nav {
+    display: none !important;
+  }
+  div.side-navigation {
+    display: none !important;
+    visibility: hidden;
+  }
+  a.brand-name {
+    font-size: 1.5em !important;
+  }
+  div.navigation-menu ul.nav-navigation {
+    display: inline-block !important;
+  }
+  div.navigation-menu ul.nav-navigation li {
+    display: inline;
+  }
+  div.navigation-menu ul.nav-navigation li a {
+    font-size: 1em;
+    padding: 0 20px;
+  }
+  div.navigation-menu i.search-icon {
+    padding: 0 20px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
